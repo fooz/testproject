@@ -11,11 +11,14 @@ group :assets do
 end
 
 
+
+
 group :production do
 	gem 'pg'
 end
 
 group :development, :test do
 	gem 'sqlite3'
+	gem "better_errors"
 end
 
